@@ -1,0 +1,33 @@
+/* JavaFX CSS */
+
+.root {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px; /* Padding inside button */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.text-field {
+    -fx-border-color: #4CAF50; /* Green border */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 10px; /* Padding inside text field */
+}
+
+.text-field:focus {
+    -fx-border-color: #388E3C; /* Darker green when focused */
+}
+
+.alert {
+    -fx-text-fill: #FF0000; /* Red text for alerts */
+    -fx-font-weight: bold; /* Bold font for alerts */
+}
